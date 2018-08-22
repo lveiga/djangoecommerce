@@ -1,4 +1,1 @@
-web: gunicorn djangoecommercelucveiga.wsgi --log-file -
-run
-this
-thing
+web: python manage.py runserver 0.0.0.0:$PORT
